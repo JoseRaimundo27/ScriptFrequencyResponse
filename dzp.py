@@ -4,7 +4,7 @@ from scipy import signal
 
 #Molde para zeros e polos complexos:
 zero_complex_1 = 0.5 * np.exp(1j * np.pi / 3)  # 0.5 * e^(j*pi/3)
-pole_complex_1 = (-0.9 * np.exp(1j * np.pi / 4) -0.9* np.exp(-1j * np.pi / 4)) # 0.2 * e^(j*pi/2)
+pole_complex_1 = -0.9 * np.exp(1j * np.pi / 4) 
 
 # Defina os coeficientes da função de transferência
 num = [1,0,0]    # Numerador da Transformada Z
